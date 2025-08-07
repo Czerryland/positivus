@@ -1,0 +1,22 @@
+@use "custom" as *;
+
+// IMPORT COMPONENTS
+
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+
+
+// IMPORT SECTIONS
+
+@use "sections/navbar";
+@use "sections/intro";
+@use "sections/services";
+
+// FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+body {
+  font-family: $font-family-space-grotesk;
+}

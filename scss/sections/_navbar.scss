@@ -1,0 +1,20 @@
+@use "../custom.scss" as *;
+
+.menu{
+    padding: 0 100px;
+    height: 68px;
+
+
+    .navbar-brand{
+        h2{
+            margin: 0;
+            padding: 0;
+        }
+    }
+    div{
+         height: 100%;
+    }
+    li{
+        padding: 0 20px;
+    }
+}
