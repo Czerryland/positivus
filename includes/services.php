@@ -12,39 +12,57 @@
     </div>
     <div class="row row-cols-2 g-4">
       <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Search Engine Optimization</h5>
-          <p class="card-text mt-auto">Learn more</p>
+        <div class="card rounded- services-card services-card-primary p-5">
+          <h5 class="card-title"><mark>Search Engine Optimization</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
       <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Pay-Per-Click Advertising</h5>
-          <p class="card-text mt-auto">Learn more</p>
+        <div class="card rounded-4 services-card services-card-secondary p-5">
+          <h5 class="card-title"><mark>Pay-Per-Click Advertising</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
       <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Social Media Marketing</h5>
-          <p class="card-text mt-auto">Learn more</p>
+        <div class="card rounded-4 services-card services-card-black p-5">
+          <h5 class="card-title"><mark>Social Media Marketing</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon_white.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
       <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Email Marketing</h5>
-          <p class="card-text mt-auto">Learn more</p>
+        <div class="card rounded-4 services-card services-card-primary p-5">
+          <h5 class="card-title"><mark>Email Marketing</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
-    <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Content Creation</h5>
-          <p class="card-text mt-auto">Learn more</p>
+      <div class="col">
+        <div class="card rounded-4 services-card services-card-secondary p-5">
+          <h5 class="card-title"><mark>Content Creation</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
-            <div class="col">
-        <div class="card rounded-4 services-card p-5">
-          <h5 class="card-title">Analytics and Tracking</h5>
-          <p class="card-text mt-auto">Learn more</p>
+      <div class="col">
+        <div class="card rounded-4 services-card services-card-black p-5">
+          <h5 class="card-title"><mark>Analytics and Tracking</mark></h5>
+          <div class="d-flex align-items-center mt-auto">
+            <img src="images/arrow_icon_white.svg" width="40" height="40" alt="arrow">
+            <p class="card-text mb-0 ms-2">Learn more</p>
+          </div>
         </div>
       </div>
     </div>

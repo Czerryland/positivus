@@ -11861,6 +11861,10 @@ textarea.form-control-lg {
   padding: 0 40px;
 }
 
+.navbar-button:hover {
+  background: #B9FF66;
+}
+
 .intro-btn {
   background: #191A23;
   color: #F3F3F3;
@@ -11870,6 +11874,12 @@ textarea.form-control-lg {
 .intro-btn:hover {
   background: #B9FF66;
   color: #191A23;
+}
+
+.contact-btn {
+  background: #191A23;
+  color: #F3F3F3;
+  padding: 20px 40px;
 }
 
 .menu {
@@ -11912,6 +11922,26 @@ mark {
   padding: 50px;
   border: solid 1px #191A23;
   box-shadow: 0px 3px 0px #191A23;
+}
+
+.services-card-primary {
+  background: #F3F3F3;
+}
+
+.services-card-secondary {
+  background: #B9FF66;
+}
+.services-card-secondary mark {
+  background: #F3F3F3;
+}
+
+.services-card-black {
+  background: #191A23;
+  color: #F3F3F3;
+}
+
+.contact-section {
+  border: none;
 }
 
 body {

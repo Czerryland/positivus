@@ -6,6 +6,9 @@
     height: 100%;
     padding: 0 40px;
 }
+.navbar-button:hover {
+    background: $secondary;
+}
 
 .intro-btn{
     background: $gray-900;
@@ -15,4 +18,9 @@
 .intro-btn:hover {
     background: $secondary;
     color: $gray-900;
+}
+.contact-btn{
+    background: $gray-900;
+    color: $primary;
+    padding: 20px 40px;
 }

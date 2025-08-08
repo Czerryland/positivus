@@ -10,3 +10,19 @@ mark{
     border: solid 1px $gray-900;
     box-shadow: 0px 3px 0px $gray-900;
 }
+
+.services-card-primary{
+    background: $primary;
+}
+
+.services-card-secondary{
+    background: $secondary;
+    mark{
+        background: $primary;
+    }
+}
+
+.services-card-black{
+    background: $gray-900;
+    color: $primary;
+}
