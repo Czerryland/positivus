@@ -1,4 +1,4 @@
-<section class="contact-section py-5">
+<section class="contact-section py-5 section-container">
     <div class="container">
         <div class="rounded-5 bg-primary p-4">
             <div class="row align-items-center">

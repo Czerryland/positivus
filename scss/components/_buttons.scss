@@ -1,20 +1,31 @@
 @use "../custom.scss" as *;
 
 
-.navbar-button{
+.navbar-button {
     border: 1px solid $gray-900;
-    height: 100%;
-    padding: 0 40px;
+    height: 68px; // Set your desired fixed height
+    padding: 20px 35px;
+    width: 264px;
+
 }
 .navbar-button:hover {
     background: $secondary;
 }
 
-.intro-btn{
+.intro-btn {
     background: $gray-900;
     color: $primary;
-    padding: 20px 40px;
+    width: 264px;
+    height: 68px;
+    max-width: 264px;
+    min-width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    align-self: flex-start;
 }
+
 .intro-btn:hover {
     background: $secondary;
     color: $gray-900;

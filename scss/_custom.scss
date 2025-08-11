@@ -12,8 +12,18 @@ $gray-800: #343A40 !default;
 $gray-900: #191A23 !default;
 $black:    #000 !default;
 
+$container-max-widths: (
+  sm: 1440px,
+  md: 1440px,
+  lg: 1440px,
+  xl: 1440px,
+  xxl: 1440px
+) !default;
+
 $primary:       $gray-100 !default;
 $secondary:     $green !default;
+
+$nav-link-color: $gray-900 !default;
 
 $font-family-space-grotesk: 'Space Grotesk', Arial, sans-serif;
 

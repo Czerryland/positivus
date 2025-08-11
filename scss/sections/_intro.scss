@@ -13,3 +13,38 @@
 .logo-svg {
     fill: #191A23;
 }
+
+.intro-section .col-lg-4 {
+  width: 531px;
+  height: 481px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:35px;
+}
+
+.intro-section .col-lg-8 {
+  width: 600px;
+  height: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-section .row.align-items-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row > * {
+ padding-right: 0;
+ padding-left: 0;
+}
+.col-lg-4{
+    h5{
+        width: 498px;
+        height: 112px;
+        margin: 0;
+    }
+}

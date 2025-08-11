@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg menu">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg menu section-container">
+  <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="#">
       <img src="images/logo.svg" alt="logo" width="35.25" height="35.25" class="d-inline-block align-text-top">
       <h2 class="ms-2">Positivus</h2>
@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About us</a>
+          <a class="nav-link" aria-current="page" href="#">About us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Services</a>

@@ -1,11 +1,11 @@
-<section class="intro-section pt-5">
-  <div class="container-fluid">
+<section class="intro-section section-container pt-5">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-4">
-        <h1 class="display-4 fw-bold mb-3">Navigating the digital landscape for success</h1>
-        <p class="mb-4">
+        <h1 class="display-4 fw-bold ">Navigating the digital landscape for success</h1>
+        <h5>
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
-        </p>
+        </h5>
         <button class="btn intro-btn btn-lg me-3">Book a consultation</button>
       </div>
       <div class="col-lg-8 text-center">
