@@ -4,9 +4,14 @@ mark{
     background: $secondary;
 }
 
+.services-section{
+    padding-top:140px;
+}
+
 .services-card {
     box-sizing: border-box;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 310px;
     padding: 50px;
     border: solid 1px $gray-900;
@@ -29,16 +34,23 @@ mark{
     background: $primary;
 }
 
+.services-cards-container{
+    padding-top:80px;
+}
+
 .services-card-secondary{
     background: $secondary;
     mark{
-        background: $primary;
+        background: $white;
     }
 }
 
 .services-card-black{
     background: $gray-900;
     color: $primary;
+    .card-text{
+        color: $primary;
+    }
 }
 
 .services-card-content {
@@ -46,4 +58,9 @@ mark{
   flex-direction: column;
   justify-content: space-between;
   gap: 93px; // vertical gap between title and button
+}
+
+.services-cards-container > .col:nth-child(3) .services-card mark {
+  background: $white;
+  color: $gray-900; // optional for contrast
 }

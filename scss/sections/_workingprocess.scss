@@ -1,0 +1,25 @@
+@use "../custom.scss" as *;
+.working-process-card{
+    border:solid 1px $gray-900;
+    border-radius:45px;
+    background: $primary;
+}
+.working-process-card .card {
+    border-radius: 45px;
+    background: $primary;
+    padding: 60px 41px;
+} 
+
+.working-process-index{
+    color: $gray-900;
+}
+.expand-icon{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.working-process-active{
+    background: $secondary;
+}

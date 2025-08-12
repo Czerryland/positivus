@@ -11860,6 +11860,7 @@ textarea.form-control-lg {
   height: 68px;
   padding: 20px 35px;
   width: 264px;
+  margin-left: 20px;
 }
 
 .navbar-button:hover {
@@ -11917,7 +11918,9 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  padding: 0 100px;
+  padding: 70px 100px 0px 100px;
+  height: 771px;
+  min-height: 771px;
 }
 
 .logos-margin {
@@ -11962,13 +11965,35 @@ textarea.form-control-lg {
   margin: 0;
 }
 
+.logos-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo-svg {
+  height: 48px;
+  width: auto;
+  display: inline-block;
+  object-fit: contain;
+}
+
 mark {
   background: #B9FF66;
 }
 
+.services-section {
+  padding-top: 140px;
+}
+
 .services-card {
   box-sizing: border-box;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   height: 310px;
   padding: 50px;
   border: solid 1px #191A23;
@@ -11992,15 +12017,22 @@ mark {
   background: #F3F3F3;
 }
 
+.services-cards-container {
+  padding-top: 80px;
+}
+
 .services-card-secondary {
   background: #B9FF66;
 }
 .services-card-secondary mark {
-  background: #F3F3F3;
+  background: #fff;
 }
 
 .services-card-black {
   background: #191A23;
+  color: #F3F3F3;
+}
+.services-card-black .card-text {
   color: #F3F3F3;
 }
 
@@ -12011,8 +12043,97 @@ mark {
   gap: 93px;
 }
 
+.services-cards-container > .col:nth-child(3) .services-card mark {
+  background: #fff;
+  color: #191A23;
+}
+
 .contact-section {
   border: none;
+  height: 347px;
+  position: relative;
+}
+
+.contact-section .image-box {
+  position: relative;
+  height: 347px;
+  overflow: visible;
+}
+
+.contact-section .contact-img {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  height: 400px;
+  width: auto;
+  transform: translateY(-50%);
+  z-index: 2;
+  max-width: none;
+}
+
+.contact-section .rounded-5 {
+  height: 347px;
+  overflow: visible;
+  min-height: 347px;
+  max-height: 347px;
+  display: flex;
+  align-items: center;
+}
+
+.case-studies-box {
+  margin-top: 50px;
+  padding: 60px 70px;
+  background: #191A23;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0;
+}
+
+.case-studies-text {
+  color: #F3F3F3;
+}
+
+.case-studies-link {
+  color: #B9FF66;
+  text-decoration: none;
+}
+
+.vertical-line {
+  width: 2px;
+  height: auto;
+  min-height: 160px;
+  background: #fff;
+  align-self: stretch;
+  margin: 0 64px;
+}
+
+.working-process-card {
+  border: solid 1px #191A23;
+  border-radius: 45px;
+  background: #F3F3F3;
+}
+
+.working-process-card .card {
+  border-radius: 45px;
+  background: #F3F3F3;
+  padding: 60px 41px;
+}
+
+.working-process-index {
+  color: #191A23;
+}
+
+.expand-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.working-process-active {
+  background: #B9FF66;
 }
 
 body {

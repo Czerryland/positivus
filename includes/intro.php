@@ -1,4 +1,4 @@
-<section class="intro-section section-container pt-5">
+<section class="intro-section section-container intro-padding-t">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-4">
@@ -12,7 +12,7 @@
         <img src="images/megaphoner.svg" alt="Company Logo" class="img-fluid">
       </div>
     </div>
-    <div class="row align-items-center logos-margin">
+    <div class="align-items-center logos-margin logos-row">
         <?php
             $images = [
             "images/Company-logo1.svg",
@@ -23,7 +23,7 @@
             "images/Company-logo6.svg"
             ];
             foreach ($images as $img) {
-            echo '<div class="col-2 text-center"><svg class="img-fluid logo-svg"><use xlink:href="' . $img . '"></use></svg></div>';
+            echo '<div class=" text-center logo-svg"><svg class="img-fluid logo-svg"><use xlink:href="' . $img . '"></use></svg></div>';
         }
       ?>
     </div>

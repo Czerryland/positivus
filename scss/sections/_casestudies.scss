@@ -1,0 +1,29 @@
+@use "../custom.scss" as *;
+.case-studies-box {
+    margin-top:50px;
+    padding: 60px 70px;
+    background:$gray-900;
+    border-radius:45px;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    gap:0;
+}
+
+.case-studies-text{
+    color: $primary;
+}
+
+.case-studies-link{
+    color: $secondary;
+    text-decoration:none;
+}
+
+.vertical-line {
+  width: 2px;
+  height: auto;
+  min-height: 160px; // adjust to match content height
+  background: $white;
+  align-self: stretch;
+  margin: 0 64px;
+}

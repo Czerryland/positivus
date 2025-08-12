@@ -9,8 +9,8 @@
                     <a href="#" class="btn contact-btn align-self-start">Get your free proposal</a>
                 </div>
                 <!-- Right Section (Image) -->
-                <div class="col-md-6 text-center">
-                    <img src="images/contact_image.svg" alt="Contact" class="img-fluid" style="max-height: 250px;">
+                <div class="col-md-6 text-center image-box">
+                    <img src="images/contact_image.svg" alt="Contact" class="contact-img">
                 </div>
             </div>
         </div>
