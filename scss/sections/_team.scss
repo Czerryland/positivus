@@ -1,0 +1,43 @@
+@use "../custom.scss" as *;@use "../custom.scss" as *;
+
+.team-section-title{
+    margin-right:40px;
+}
+
+.team-section-description {
+    padding-right:612px;
+}
+
+.team-section {
+  padding-top: 140px;
+}
+
+.bg-green {
+  background: $secondary;
+  color: $gray-900;
+  border-radius: 7px;
+  padding: 0 8px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  padding:40px 35px;
+  border-radius:45px;
+}
+
+.team-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.team-desc {
+  font-size: 0.95rem;
+  color: $gray-700;
+}
+.team-img {
+  flex-shrink: 0;
+}
