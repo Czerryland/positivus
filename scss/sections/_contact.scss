@@ -23,10 +23,15 @@
 }
 
 .contact-section .rounded-5 {
-    height: 347px;
-    overflow: visible; // allow image to overflow
+    height: auto;
+    overflow: visible; 
     min-height: 347px;
-    max-height: 347px;
+    max-height: auto;
     display: flex;
     align-items: center;
+    padding: 60px 60px; 
+}
+
+.contact-text-section{
+    margin-left:60px;
 }

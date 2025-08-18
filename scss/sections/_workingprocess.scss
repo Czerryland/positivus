@@ -1,25 +1,36 @@
 @use "../custom.scss" as *;
-.working-process-card{
-    border:solid 1px $gray-900;
-    border-radius:45px;
-    background: $primary;
-}
 .working-process-card .card {
+    padding: 41px 60px;
+    border:solid 1px $gray-900;
     border-radius: 45px;
-    background: $primary;
-    padding: 60px 41px;
+    box-shadow: 0 5px $gray-900;
 } 
+
 
 .working-process-index{
     color: $gray-900;
+    font-size:60px;
 }
 .expand-icon{
-    width:48px;
-    height:48px;
+    width:58px;
+    height:58px;
     border-radius:50%;
     object-fit:cover;
 }
 
 .working-process-active{
-    background: $secondary;
+    background: $secondary !important;
+}
+
+.working-process-card-title{
+    font-size:30px;
+}
+
+.working-process-description{
+    width: 292px;
+    height:46px;
+}
+
+.expand-img-box-shadow{
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
 }

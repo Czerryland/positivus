@@ -1,9 +1,9 @@
 <section class="contact-section py-5 section-container">
     <div class="container">
-        <div class="rounded-5 bg-primary p-4">
+        <div class="rounded-5 bg-primary">
             <div class="row align-items-center">
                 <!-- Left Section -->
-                <div class="col-md-6 d-flex flex-column justify-content-between h-100">
+                <div class="col-md-6 d-flex flex-column justify-content-between h-100 contact-text-section">
                     <h3 class="mb-3">Let's make things happen</h3>
                     <p class="mb-3 flex-grow-1">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
                     <a href="#" class="btn contact-btn align-self-start">Get your free proposal</a>

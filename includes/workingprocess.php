@@ -2,10 +2,10 @@
     <div class="container">
         <div class="row align-items-center mb-5">
             <div class="col-md-4">
-                <h2 class="fw-bold"><mark>Our Working Process</mark></h2>
+                <h2 class="fw-bold working-process-title"><mark>Our Working Process</mark></h2>
             </div>
             <div class="col-md-5">
-                <p class="mb-0">
+                <p class="mb-0 working-process-description">
                     Step-by-Step Guide to Achieving Your Business Goals
                 </p>
             </div>
@@ -13,11 +13,11 @@
         <!-- Expandable Card -->
         <div class="row justify-content-center">
             <div class="working-process-card">
-                <div id="process-card" class="card" style="cursor:pointer; transition: box-shadow 0.3s;">
+                <div id="process-card" class="card bg-primary" style="cursor:pointer; transition: box-shadow 0.3s;">
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <h2 class="fw-bold working-process-index me-3">01</h2>
-                            <div class="fw-semibold fs-5">Consultation</div>
+                            <span class="fw-bold working-process-index me-3">01</span>
+                            <div class="working-process-card-title fw-semibold">Consultation</div>
                         </div>
                         <img src="images/plus-icon.svg" alt="plus icon" id="expand-img" class="expand-icon">
                     </div>

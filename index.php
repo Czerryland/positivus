@@ -20,7 +20,7 @@
     <?php include 'includes/contact.php'; ?>
 
     <!-- CASE STUDIES SECTIONY -->
-    <?php include 'includes/casestudies.php'; ?>
+    <?php include 'includes/casestudies.php'; ?>    
 
     <!-- WORKING PROCESS SECTION  -->
     <?php include 'includes/workingprocess.php'; ?>

@@ -12072,12 +12072,17 @@ mark {
 }
 
 .contact-section .rounded-5 {
-  height: 347px;
+  height: auto;
   overflow: visible;
   min-height: 347px;
-  max-height: 347px;
+  max-height: auto;
   display: flex;
   align-items: center;
+  padding: 60px 60px;
+}
+
+.contact-text-section {
+  margin-left: 60px;
 }
 
 .case-studies-box {
@@ -12109,31 +12114,40 @@ mark {
   margin: 0 64px;
 }
 
-.working-process-card {
+.working-process-card .card {
+  padding: 41px 60px;
   border: solid 1px #191A23;
   border-radius: 45px;
-  background: #F3F3F3;
-}
-
-.working-process-card .card {
-  border-radius: 45px;
-  background: #F3F3F3;
-  padding: 60px 41px;
+  box-shadow: 0 5px #191A23;
 }
 
 .working-process-index {
   color: #191A23;
+  font-size: 60px;
 }
 
 .expand-icon {
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .working-process-active {
-  background: #B9FF66;
+  background: #B9FF66 !important;
+}
+
+.working-process-card-title {
+  font-size: 30px;
+}
+
+.working-process-description {
+  width: 292px;
+  height: 46px;
+}
+
+.expand-img-box-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 body {
