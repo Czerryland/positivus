@@ -1,31 +1,72 @@
 @use "../custom.scss" as *;
-.contact-section-2 {
-    padding-top: 120px;
+
+.contact-section-2{
+  padding-top:140px;
 }
 
-.contact-section-2 .rounded-5.bg-primary {
-  padding: 0px 60px;
-  height: 347px;
-  width: 1240px;
-  display: flex;
+.contact-form-container {
+  margin-top:80px;
+  border-radius:45px;
+  display:flex;
+  flex-direction:row;
+  padding:60px 100px;
+  position:relative;
+  overflow:hidden;
+  height:773px; 
+}
+
+.contact-form-container form{
+  display:flex;
+  flex-direction:column;
   justify-content: space-between;
-  align-items: center; // Vertically center children
+  width:556px
 }
 
-.contact-section-2 .rounded-5.bg-primary .align-items-center {
-  padding: 0px 60px;
-  height: 347px;
+.contact-text-input{
+  display:flex;
+  flex-direction:column;
 }
 
-.contact-text-section {
-  gap: 26px;
-  height: 227px;
-  width: 500px;
+.contact-text-input input{
+  padding:18px 30px;
+  border:solid 1px $gray-900;
+  border-radius:14px;
+}
 
+.contact-message-input{
+  display:flex;
+  flex-direction:column;
 }
-.contact-btn{
-    border-radius: 14px;
+
+
+.contact-message-input input{
+  padding:18px 30px;
+  border:solid 1px $gray-900;
+  border-radius:14px;
+  height:160px;
 }
-.image-box{
-    padding-right: 75px;
+
+.contact-image-box {
+  position: absolute;
+  top: 50%;
+  right: -27%; // move half the image out (adjust as needed)
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.contact-img {
+  display: block;
+  max-width: none; // allow image to overflow
+}
+
+.contact-submit-btn{
+  height:68px;
+  border-radius:14px;
+  background: $gray-900;
+  color: $primary;
+}
+
+.contact-radio-input{
+  display:flex;
+  flex-direction:row;
+  gap:35px;
 }

@@ -1,56 +1,77 @@
 @use "../custom.scss" as *;
-
-.testimonials-box{
-    height:625px;
-    background: $gray-900;
-    border-radius:45px;
-    margin-top:80px;
-    padding-top:84px;
-    overflow-x: hidden;
-    position: relative;
+.testimonials-section{
+  padding-top:208px;
 }
 
-.testimonial-bubbles{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    transition: transform 0.5s cubic-bezier(.77,0,.18,1);
-}
-
-.speechbubble-textbox{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 80%;
-    height: 80%;
-}
-
-.speechbubble-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
+.testimonials-card{
+  position:relative;
+  background: $gray-900;
+  border-radius: 45px;
+  padding-top: 84px;
+  padding-bottom: 68px;
+  margin-top: 80px;
+  height: 625px;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  z-index: 1;
+  overflow:hidden;
 }
 
-.text-clamp{
-    position:relative;
-    color: $primary;
+.speech-bubble-container{
+  position:relative;
+  width:3280px;
+  height:335px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  left:-350px;
+}
+.scrolling-bar{
+  margin-top:124px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:564px;
 }
 
-.speechbubble-content {
+.testimonials-left-arrow{
+  transform:rotate(180deg)
+}
+.testimonials-star-container{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  gap:14px;
+  width:146px;
+}
+
+.testimonials-star{
+  width:14px;
+  height:14px;
+}
+
+.speech-bubble {
   position: relative;
-  z-index: 2;
-  padding: 48px 52px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  text-align: center;
+  display: inline-block;
 }
 
+.speech-bubble img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.speech-bubble-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:52px 48px;
+}
+
+.speech-bubble-author{
+  margin-top:20px;
+  margin-left: 80px;
+}
+
+.testimonials-star-active{
+  fill: red;
+}
