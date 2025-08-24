@@ -1,4 +1,13 @@
 @use "../custom.scss" as *;
+.case-studies-title-container{
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+}
+.case-studies-title-description{
+    width:580px;
+    padding-top:4px;
+}
 .case-studies-box {
     margin-top:50px;
     padding: 60px 70px;

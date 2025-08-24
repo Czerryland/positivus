@@ -1,11 +1,13 @@
 <section class="testimonials-section section-container">
     <div class="container">
-        <div class="row align-items-center mb-5">
-            <div class="col-md-3">
-                <h2 class="fw-bold"><mark>Testimonials</mark></h2>
+     <div class="testimonials-title-container ">
+            <div class="testimonials-title">
+                <h2 class="fw-bold title-mark">
+                       Testimonials
+                </h2>
             </div>
-            <div class="col-md-5">
-                <p class="mb-0">
+            <div class="testimonials-title-description">
+                <p>
                     Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
                 </p>
             </div>

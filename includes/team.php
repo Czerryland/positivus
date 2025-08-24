@@ -1,16 +1,18 @@
 <section class="team-section section-container">
   <div class="container">
-    <div class="row align-items-center mb-5">
-      <div class="col-md-1 team-section-title">
-        <h2 class="fw-bold"><mark class="bg-green">Team</mark></h2>
-      </div>
-      <div class="col team-section-description">
-        <p class="mb-0">
-          Meet the skilled and experienced team behind our successful digital marketing strategies
-        </p>
-      </div>
-    </div>
-    <div class="row row-cols-3 gy-5 gx-5">
+        <div class="team-title-container ">
+            <div class="team-title">
+                <h2 class="fw-bold title-mark">
+                       Team
+                </h2>
+            </div>
+            <div class="team-title-description">
+                <p>
+                    Meet the skilled and experienced team behind our successful digital marketing strategies
+                </p>
+            </div>
+        </div>
+    <div class="row-cols-3 gy-5 gx-5">
       <!-- Team Member Card Example -->
       <div class="col">
         <div class="card team-card position-relative d-flex flex-column">

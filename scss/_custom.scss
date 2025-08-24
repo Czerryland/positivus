@@ -20,11 +20,19 @@ $container-max-widths: (
   xxl: 1440px
 ) !default;
 
+@media (min-width: 1200px) {
+    h1, .h1 {
+        font-size: 60px !important;
+    }
+}
+
 $primary:       $gray-100 !default;
 $secondary:     $green !default;
 
 $nav-link-color: $gray-900 !default;
 
 $font-family-space-grotesk: 'Space Grotesk', Arial, sans-serif;
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

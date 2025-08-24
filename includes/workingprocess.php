@@ -1,17 +1,19 @@
 <section class="services-section section-container">
     <div class="container">
-        <div class="row align-items-center mb-5">
-            <div class="col-md-4">
-                <h2 class="fw-bold working-process-title"><mark>Our Working Process</mark></h2>
+        <div class="working-process-studies-title-container ">
+            <div class="working-process-studies-title">
+                <h2 class="fw-bold title-mark">
+                        Our Working Process
+                </h2>
             </div>
-            <div class="col-md-5">
-                <p class="mb-0 working-process-description">
+            <div class="working-process-title-description">
+                <p>
                     Step-by-Step Guide to Achieving Your Business Goals
                 </p>
             </div>
         </div>
         <!-- Expandable Card -->
-        <div class="row justify-content-center">
+        <div class="justify-content-center">
             <div class="working-process-card">
                 <div id="process-card" class="card bg-primary" style="cursor:pointer; transition: box-shadow 0.3s;">
                     <div class="d-flex align-items-center justify-content-between">

@@ -4,6 +4,22 @@ mark{
     background: $secondary;
 }
 
+.title-mark{
+    background:$secondary;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.services-title-container{
+    display: flex;
+    align-items: center;    
+    gap: 20px;
+}
+.services-title-description{
+    width:580px;
+    padding-top:4px;
+}
+
 .services-section{
     padding-top:140px;
 }
@@ -19,11 +35,10 @@ mark{
     border-radius: 45px;
 }
 
-.gx-custom {
-  --bs-gutter-x: 40px;
-}
-.gy-custom {
-  --bs-gutter-y: 40px;
+.services-cards-column{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
 }
 
 mark{
@@ -35,6 +50,9 @@ mark{
 }
 
 .services-cards-container{
+    display:flex;
+    flex-direction:row;
+    gap: 40px 40px;
     padding-top:80px;
 }
 
