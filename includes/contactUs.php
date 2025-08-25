@@ -1,12 +1,12 @@
 <section class="contact-section-2 section-container">
     <div class="container">
-     <div class="testimonials-title-container ">
-            <div class="testimonials-title">
+     <div class="title-container ">
+            <div class="contactus-title">
                 <h2 class="fw-bold title-mark">
                        Contact Us
                 </h2>
             </div>
-            <div class="testimonials-title-description">
+            <div class="title-description">
                 <p>
                     Connect with Us: Let's Discuss Your Digital Marketing Needs
                 </p>

@@ -1,0 +1,118 @@
+@use "../custom.scss" as *;
+
+.footer-section{
+    padding-top:140px;
+}
+
+.footer-contents{
+    background: $gray-900;
+    padding: 55px 60px;
+    padding-bottom: 50px;
+    border-radius: 45px 45px 0 0;
+}
+.footer-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:155px;
+}
+.footer-title-logo{
+    display: flex;
+    flex-direction: row;
+}
+.footer-title-logo h3{
+    background : none;
+    color: $primary;
+    margin-bottom: 0px;
+}
+
+.footer-navbar{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.footer-navbar a{
+    color: white;
+}
+.footer-horizontal-line{
+    background: $primary;
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom:50px;
+
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: row;
+    gap:154px;
+}
+.footer-body{
+    padding-top: 66px;
+}
+.footer-adress{
+    margin-top:27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 332px;
+}
+.footer-adress p{
+    margin:0;
+    color: $primary;
+}
+
+.footer-email{
+    display: flex;
+}
+
+.footer-title-mark{
+    background: $secondary;
+    margin-bottom: 27px;
+    border-radius: 7px;
+    padding:3px 3px;
+}
+
+.footer-email form{
+    border-radius:14px;
+    background:#292A32;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 58px 40px;
+}
+
+.footer-email form input[type="email"]{
+    border: solid 1px $primary;
+    padding: 22px 35px;
+    background:none;
+    color:$primary;
+    border-radius: 14px;
+}
+
+.footer-email form input[type="submit"]{
+    border: none;
+    padding: 22px 35px;
+    background:$secondary;
+    color:$gray-900;
+    border-radius: 14px;
+}
+
+.footer-end p {
+    color: $primary;
+    margin-right:40px ;
+}
+
+.footer-end{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-socials img{
+    width:30px;
+    height:30px;
+}

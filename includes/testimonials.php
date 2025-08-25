@@ -1,12 +1,12 @@
 <section class="testimonials-section section-container">
     <div class="container">
-     <div class="testimonials-title-container ">
+     <div class="title-container ">
             <div class="testimonials-title">
                 <h2 class="fw-bold title-mark">
                        Testimonials
                 </h2>
             </div>
-            <div class="testimonials-title-description">
+            <div class="title-description">
                 <p>
                     Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
                 </p>

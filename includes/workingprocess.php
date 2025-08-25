@@ -1,12 +1,12 @@
 <section class="services-section section-container">
     <div class="container">
-        <div class="working-process-studies-title-container ">
-            <div class="working-process-studies-title">
+        <div class="title-container ">
+            <div class="working-process-title">
                 <h2 class="fw-bold title-mark">
                         Our Working Process
                 </h2>
             </div>
-            <div class="working-process-title-description">
+            <div class="title-description">
                 <p>
                     Step-by-Step Guide to Achieving Your Business Goals
                 </p>

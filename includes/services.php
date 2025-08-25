@@ -1,6 +1,6 @@
 <section class="services-section section-container">
   <div class="container">
-    <div class="services-title-container ">
+    <div class="title-container ">
       <div class="services-title">
         <h2 class="fw-bold title-mark">
           <div>
@@ -8,7 +8,7 @@
           </div>
         </h2>
       </div>
-      <div class="services-title-description">
+      <div class="title-description">
         <p>
           At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
         </p>

@@ -70,3 +70,16 @@
   flex-direction:row;
   gap:35px;
 }
+
+.contact-radio-input span{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap:14px;
+}
+
+.contact-radio-input span input{
+  width:28px;
+  height:28px;
+  accent-color: $secondary;
+}

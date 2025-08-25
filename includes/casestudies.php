@@ -1,12 +1,12 @@
 <section class="services-section section-container">
     <div class="container">
-        <div class="case-studies-title-container ">
+        <div class="title-container ">
             <div class="case-studies-title">
                 <h2 class="fw-bold title-mark">
                         Case Studies
                 </h2>
             </div>
-            <div class="case-studies-title-description">
+            <div class="title-description">
                 <p>
                     Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
                 </p>

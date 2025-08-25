@@ -1,46 +1,62 @@
 @use "../custom.scss" as *;
 
-.team-title-container{
-    display: flex;
-    align-items: center;    
-    gap: 20px;  
-    margin-bottom:85px;
-}
-.team-title-description{
-    width:580px;
-    padding-top:4px;
-}
 
 .team-section {
   padding-top: 140px;
 }
 
-.bg-green {
-  background: $secondary;
-  color: $gray-900;
-  border-radius: 7px;
-  padding: 0 8px;
+.team-cards-container{
+  margin-top: 80px;
+  display:flex;
+  flex-direction:row; 
+  gap: 40px 40px;
+
 }
 
-.team-card {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  position: relative;
+.team-member-card{
+  box-shadow: 0px 4px $gray-900;
+  border: 1px solid $gray-900;
+  border-radius: 45px;
+  width:387px;
+  height:331px;
   padding:40px 35px;
-  border-radius:45px;
+  display:flex;
+  flex-direction:column;
+  gap:28px;
 }
 
-.team-icon {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+.team-member-title{
+  display:flex;
+  flex-direction:column;
+  
+}
+.team-member-title h5{
+  margin-top:auto;
+  margin-bottom:0px;
 }
 
-.team-desc {
-  font-size: 0.95rem;
-  color: $gray-700;
+.team-member-title p{
+  margin-bottom:0px;
 }
-.team-img {
-  flex-shrink: 0;
+
+.team-member-photo-title{
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+}
+
+.horizontal-line{
+  background: $gray-900;
+  height: 1px;
+  width: 100%;
+}
+
+.team-member-card .team-member-description{
+  width: 317px;
+  height: 69px;
+}
+
+.team-member-card .team-member-description p{
+  font-size: 18px;
+  margin-bottom: 0px;
 }
