@@ -3,7 +3,7 @@
 
 .navbar-button {
     border: 1px solid $gray-900;
-    padding: 20px 35px;
+    padding: 20px 35px !important;
     border-radius: 14px;
 
 }
@@ -33,4 +33,7 @@
     background: $gray-900;
     color: $primary;
     padding: 20px 40px;
+}
+.service-btn{
+    padding:0 !important;
 }

@@ -49,13 +49,13 @@
 .contact-image-box {
   position: absolute;
   top: 50%;
-  right: -27%; // move half the image out (adjust as needed)
+  right: -27%; 
   transform: translateY(-50%);
   z-index: 2;
 }
 .contact-img {
   display: block;
-  max-width: none; // allow image to overflow
+  max-width: none; 
 }
 
 .contact-submit-btn{
@@ -82,4 +82,11 @@
   width:28px;
   height:28px;
   accent-color: $secondary;
+}
+
+@media (max-width:600px){
+  .contact-img {
+  display: none;
+  max-width: none; 
+}
 }

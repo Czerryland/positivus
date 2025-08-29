@@ -16,10 +16,12 @@
                 <form action="post">
                     <span class="contact-radio-input">
                         <span>
-                            <input type="radio" name="Say Hi" id="sayHi"> <label for="SayHi">Say Hi</label>
+                            <input type="radio" name="contact_reason" id="sayHi" value="Say Hi">
+                            <label for="sayHi">Say Hi</label>
                         </span>
                         <span>
-                            <input type="radio" name="Get a Quote"  id="Quote"><label for="Quote">Get a Quote</label>    
+                            <input type="radio" name="contact_reason" id="Quote" value="Get a Quote">
+                            <label for="Quote">Get a Quote</label>
                         </span>
 
                     </span>

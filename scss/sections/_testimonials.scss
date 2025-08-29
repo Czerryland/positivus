@@ -18,7 +18,7 @@
 
 .speech-bubble-container{
   position:relative;
-  width:3280px;
+  width:2000px;
   height:335px;
   display:flex;
   flex-direction:row;
@@ -34,7 +34,8 @@
 }
 
 .testimonials-left-arrow{
-  transform:rotate(180deg)
+  transform:rotate(180deg);
+  opacity:0.3;
 }
 .testimonials-star-container{
   display:flex;
@@ -74,5 +75,25 @@
 }
 
 .testimonials-star-active{
-  fill: red;
+  fill: $secondary;
+  color: $secondary;
+}
+
+.testimonials-arrow{
+  cursor:pointer;
+}
+
+@media (max-width: 600px) {
+  .speech-bubble-container{
+  position:relative;
+  width:2000px;
+  height:335px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  left:-750px;
+}
+.speech-bubble {
+  scale:0.8;
+}
 }

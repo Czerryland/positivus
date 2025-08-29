@@ -16,7 +16,7 @@
                 <div class="navbar-socials">
                     <img src="images/linkedin-icon-white.svg" alt="LinkedIn">
                     <img src="images/facebook-icon-white.svg" alt="Facebook">
-                    <img src="images/twitter-icon-white.svg" alt="Twitter">
+                    <img src="images/twitter-social-logotype-svgrepo-com.svg" alt="Twitter">
 
                 </div>
             </div>

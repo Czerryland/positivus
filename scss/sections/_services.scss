@@ -31,8 +31,12 @@ mark{
     gap:40px;
 }
 
-mark{
-    border-radius: 7px;
+mark {
+  background: $secondary;
+  border-radius: 7px;
+  padding: 0 7px; // Remove vertical padding
+  display: inline-block; // Prevent overlap between lines
+  line-height: 1.2; // Optional: adjust line height for better spacing
 }
 
 .services-card-primary{
@@ -42,6 +46,7 @@ mark{
 .services-cards-container{
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     gap: 40px 40px;
     padding-top:80px;
 }
@@ -59,16 +64,28 @@ mark{
     .card-text{
         color: $primary;
     }
+    mark{
+        background: $white;
+    }
+}
+
+.services-card-last{
+    background: $gray-900;
+    color: $primary;
+    .card-text{
+        color: $primary;
+    }
 }
 
 .services-card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 93px; // vertical gap between title and button
+  gap: 93px; 
 }
 
 .services-cards-container > .col:nth-child(3) .services-card mark {
   background: $white;
-  color: $gray-900; // optional for contrast
+  color: $gray-900; 
 }
+

@@ -12,9 +12,6 @@
 .logos-margin{
     margin-top:70px;
 }
-.logo-svg {
-    fill: #191A23;
-}
 
 .intro-section .intro-text {
   width: 531px;
@@ -69,4 +66,22 @@
   width:auto;
   display: inline-block;
   object-fit: contain;
+  fill: $gray-900;
+}
+
+@media (max-width: 600px) {
+  .intro-section{
+    padding: 0px 100px 0px 100px;
+    min-height: 1200px;
+}
+  .intro-contents{
+    display: flex;
+    flex-direction:column !important;
+  }
+  .logos-row{
+    flex-wrap:wrap;
+  }
+  .logo-svg{
+    max-width: 150px;
+  }
 }

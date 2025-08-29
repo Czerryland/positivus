@@ -111,7 +111,11 @@
     display: flex;
     flex-direction: row;
 }
-
+.navbar-socials{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+}
 .navbar-socials img{
     width:30px;
     height:30px;
