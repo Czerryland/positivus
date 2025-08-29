@@ -83,6 +83,36 @@
   cursor:pointer;
 }
 
+@media (max-width: 1000px) {
+  .speech-bubble-container{
+  position:relative;
+  width:2000px;
+  height:335px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  left:-550px;
+}
+.speech-bubble {
+  scale:1;
+}
+}
+
+@media (max-width: 700px) {
+  .speech-bubble-container{
+  position:relative;
+  width:2000px;
+  height:335px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  left:-670px;
+}
+.speech-bubble {
+  scale:0.8;
+}
+}
+
 @media (max-width: 600px) {
   .speech-bubble-container{
   position:relative;
@@ -94,6 +124,6 @@
   left:-750px;
 }
 .speech-bubble {
-  scale:0.8;
+  scale:0.75;
 }
 }
